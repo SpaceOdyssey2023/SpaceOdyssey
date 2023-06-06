@@ -17,29 +17,29 @@ MonoBehaviour:
   heightMapCompute: {fileID: 7200000, guid: d6df9e6cc324e48a892dd6a9cf741d65, type: 3}
   perturbVertices: 1
   perturbCompute: {fileID: 7200000, guid: c95c667630d66481daf208e2a7a4d95d, type: 3}
-  perturbStrength: 0.557
+  perturbStrength: 0.684
   oceanDepthMultiplier: 5
-  oceanFloorDepth: 1.36
+  oceanFloorDepth: 0.96
   oceanFloorSmoothing: 0.5
-  mountainBlend: 100
+  mountainBlend: 1.16
   continentNoise:
     numLayers: 6
     lacunarity: 2
     persistence: 0.5
-    scale: 1
-    elevation: 2.62
-    verticalShift: -2.95
+    scale: 0.61
+    elevation: 0
+    verticalShift: -0.63
     offset: {x: 0, y: 0, z: 0}
   maskNoise:
     numLayers: 3
     lacunarity: 1.66
     persistence: 0.55
-    scale: 1.09
+    scale: 0.88
     elevation: 1
     verticalShift: 0.02
     offset: {x: 0, y: 0, z: 0}
   ridgeNoise:
-    numLayers: 3
+    numLayers: 5
     lacunarity: 4
     persistence: 0.5
     scale: 1.5

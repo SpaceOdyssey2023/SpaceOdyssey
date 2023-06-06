@@ -19,13 +19,13 @@ MonoBehaviour:
   inScatteringPoints: 10
   opticalDepthPoints: 100
   densityFalloff: 4.3
-  wavelengths: {x: 558.8, y: 709.4, z: 660.1}
+  wavelengths: {x: 412.77, y: 378.9, z: 90.2}
   testParams: {x: 3, y: 0.15, z: 6.4, w: 1.5}
-  scatteringStrength: 21.23
+  scatteringStrength: 36.6
   intensity: 1
   ditherStrength: 1
   ditherScale: 3.89
   blueNoise: {fileID: 2800000, guid: 8886a14b14a1b44089f789c0b8c05643, type: 3}
-  atmosphereScale: 1
+  atmosphereScale: 0.595
   timeOfDay: 39.09
   sunDst: 1000

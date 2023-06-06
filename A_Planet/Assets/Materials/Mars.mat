@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Mars
-  m_Shader: {fileID: 4800000, guid: 225896c33a7b541489e410ee2e145d98, type: 3}
+  m_Shader: {fileID: 4800000, guid: c3b4cb3225cee3b4f98747b63fcd1045, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -21,17 +21,17 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f5755e2d269067e4398780b27576865c, type: 3}
-        m_Scale: {x: 40, y: 40}
+        m_Texture: {fileID: 2800000, guid: 540b1cbc15d36bb4baa3deaeeca9aadc, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _Glossiness: 0
-    - _GroundPlane: 51.2
+    - _GroundPlane: 0
     - _Metallic: 0
-    - _TexScale: 1
+    - _TexScale: 31.08
     m_Colors:
-    - _FlatPeakCol: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
-    - _PathCol: {r: 0.7264151, g: 0.72257525, b: 0.24259518, a: 1}
-    - _SlopeCol: {r: 0.754717, g: 0.35172656, b: 0.35172656, a: 1}
+    - _FlatPeakCol: {r: 0.8962264, g: 0.5368903, b: 0.5368903, a: 1}
+    - _PathCol: {r: 0.8962264, g: 0.46925062, b: 0.46925062, a: 1}
+    - _SlopeCol: {r: 0.8584906, g: 0.5061855, b: 0.5061855, a: 1}
   m_BuildTextureStacks: []

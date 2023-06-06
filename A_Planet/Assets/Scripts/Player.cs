@@ -1,23 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : LivingEntity
 {
-
-    // ë°ë¯¸ì§€ ë°›ê¸°
+    // µ¥¹ÌÁö ¹Ş±â
     public override void TakeDamage(int damage)
     {
-        // ë°ë¯¸ì§€ íŒì—… ë“±
+        // µ¥¹ÌÁö ÆË¾÷ µî
 
-        // LivingEntity ìŠ¤í¬ë¦½íŠ¸ì—ì„œ ìƒì†ë°›ì€ TakeDamage() ë©”ì„œë“œ í˜¸ì¶œ
+        // LivingEntity ½ºÅ©¸³Æ®¿¡¼­ »ó¼Ó¹ŞÀº TakeDamage() ¸Ş¼­µå È£Ãâ
         base.TakeDamage(damage);
     }
 
-    // ì£½ìŒ ì²˜ë¦¬
+    // Á×À½ Ã³¸®
     protected override void Die()
     {
-        // ì£½ìŒ íŒì—… ë“±
+        // Á×À½ ÆË¾÷ µî
 
-        // LivingEntity ìŠ¤í¬ë¦½íŠ¸ì—ì„œ ìƒì†ë°›ì€ Die() ë©”ì„œë“œ í˜¸ì¶œ
+        // LivingEntity ½ºÅ©¸³Æ®¿¡¼­ »ó¼Ó¹ŞÀº Die() ¸Ş¼­µå È£Ãâ
         base.Die();
     }
 }

@@ -2,15 +2,14 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Earth
   m_Shader: {fileID: 4800000, guid: fa2bee6d3f5064024b6434575359a23b, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -49,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 2c0981800f96945c8838dc6057c25d4b, type: 3}
+        m_Texture: {fileID: 2800000, guid: f5c8f5ca9c4e64acd865c37e279ec79a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -72,7 +71,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 61560dd98bb354c1cb38f1dcd85723d4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _BiomeBlend: 0
     - _BlendNoiseScale: 0.05
@@ -82,8 +80,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FlatColBlend: 2
-    - _FlatColBlendNoise: 0.48
+    - _FlatColBlend: 1.5
+    - _FlatColBlendNoise: 0.3
     - _FlatRegionBlend: 0.321
     - _FlatThreshold: 0.175
     - _FlatToSteepBlend: 0.051
@@ -114,7 +112,7 @@ Material:
     - _RockNormalMapStrength: 0
     - _RockNormalScale: 21.16
     - _ShoreBlend: 0.089
-    - _ShoreHeight: 0.0489
+    - _ShoreHeight: 0.058
     - _SmoothnessTextureChannel: 0
     - _SnowAltitude: 0.518
     - _SnowAltitudeBlend: 0.336
@@ -155,10 +153,10 @@ Material:
     - _FlatColA: {r: 0, g: 0.65882355, b: 0.5419607, a: 0}
     - _FlatColB: {r: 0, g: 0.33468744, b: 0.38679248, a: 0}
     - _FlatColC: {r: 0.027450986, g: 0.5428885, b: 0.5568628, a: 1}
-    - _FlatHighA: {r: 0.754717, g: 0.41503167, b: 0.23780702, a: 1}
-    - _FlatHighB: {r: 0.9339623, g: 0.26772392, b: 0.17974365, a: 1}
-    - _FlatLowA: {r: 0.8490566, g: 0.5595321, b: 0.28355283, a: 1}
-    - _FlatLowB: {r: 0.8207547, g: 0.22549796, b: 0.08826979, a: 1}
+    - _FlatHighA: {r: 0.19073083, g: 0.4627451, b: 0, a: 1}
+    - _FlatHighB: {r: 0.19215687, g: 0.4627451, b: 0, a: 1}
+    - _FlatLowA: {r: 0.7898985, g: 0.85882354, b: 0, a: 1}
+    - _FlatLowB: {r: 0.58431375, g: 0.85882354, b: 0, a: 1}
     - _FlatSpeckleA: {r: 0.101960786, g: 0.5372549, b: 0.54901963, a: 1}
     - _FlatSpeckleB: {r: 0.8018868, g: 0.45051646, b: 0.16264686, a: 1}
     - _FlatSpeckleCol: {r: 0.10065861, g: 0.5387706, b: 0.5471698, a: 1}
@@ -168,13 +166,12 @@ Material:
     - _PoleNoiseWeights: {r: 1.59, g: 0.69, b: 0.77, a: 0}
     - _SandCol: {r: 1, g: 1, b: 1, a: 1}
     - _ShoreCol: {r: 1, g: 0.93270934, b: 0.6084906, a: 0}
-    - _ShoreHigh: {r: 0.8301887, g: 0.6301304, b: 0.16760412, a: 1}
-    - _ShoreLow: {r: 0.9811321, g: 0.7263895, b: 0.2906372, a: 1}
+    - _ShoreHigh: {r: 0.9528302, g: 0.90580887, b: 0.38203096, a: 1}
+    - _ShoreLow: {r: 0.98039216, g: 1, b: 0.6666667, a: 1}
     - _ShoreSpeckleCol: {r: 0.9245283, g: 0.89279854, b: 0.63234246, a: 1}
     - _SnowCol: {r: 1, g: 1, b: 1, a: 1}
     - _SteepColA: {r: 0.5294118, g: 0.48880482, b: 0.1882353, a: 0}
     - _SteepColB: {r: 0.1509434, g: 0.0671594, b: 0, a: 1}
-    - _SteepHigh: {r: 0.6886792, g: 0.2934183, b: 0.24948375, a: 1}
-    - _SteepLow: {r: 0.6886792, g: 0.3882961, b: 0.05457453, a: 1}
+    - _SteepHigh: {r: 0.14901961, g: 0.06666667, b: 0, a: 1}
+    - _SteepLow: {r: 0.5294118, g: 0.49019608, b: 0.1882353, a: 1}
     - _TestParams: {r: -0.36, g: -0.05, b: 0.38, a: 0}
-  m_BuildTextureStacks: []

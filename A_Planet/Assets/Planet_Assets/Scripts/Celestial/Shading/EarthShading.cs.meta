@@ -3,7 +3,11 @@ guid: db6f66ab3e2604c0d9bcf6649e6d7915
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - terrainMaterial: {fileID: 2100000, guid: 6b6d3f5beddd942d18a71a6456de5da5, type: 2}
+  - atmosphereSettings: {fileID: 11400000, guid: 828f0f31423494b5d9315f79af16274d, type: 2}
+  - oceanSettings: {fileID: 11400000, guid: 2dda04ece1bc5461c9c060d959433048, type: 2}
+  - shadingDataCompute: {fileID: 7200000, guid: f3a2904f78271471481822700022a157, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

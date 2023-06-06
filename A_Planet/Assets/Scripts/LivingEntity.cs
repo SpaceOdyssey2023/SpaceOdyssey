@@ -1,19 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LivingEntity : MonoBehaviour
 {
-    public int initialHealth = 100;       // ì‹œì‘ ì²´ë ¥
-    public int currentHealth;             // ë‚¨ì€ ì²´ë ¥
-    public bool dead;                     // ì£½ìŒ ì—¬ë¶€
+    public int initialHealth = 100;       // ½ÃÀÛ Ã¼·Â
+    public int currentHealth;             // ³²Àº Ã¼·Â
+    public bool dead;                     // Á×À½ ¿©ºÎ
 
-    // ì²´ë ¥ ì´ˆê¸°í™”
+    // Ã¼·Â ÃÊ±âÈ­
     private void OnEnable()
     {
         currentHealth = initialHealth;
         dead = false;
     }
 
-    // ë°ë¯¸ì§€ ë°›ê¸°
+    // µ¥¹ÌÁö ¹Ş±â
     public virtual void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -23,11 +25,11 @@ public class LivingEntity : MonoBehaviour
         }
     }
 
-    // ì£½ìŒ ì²˜ë¦¬
+    // Á×À½ Ã³¸®
     protected virtual void Die()
     {
         dead = true;
-        
+
         // gameObject.SetActive(false);
     }
 }
