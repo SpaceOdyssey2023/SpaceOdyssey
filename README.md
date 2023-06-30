@@ -13,12 +13,14 @@
 
 `Mission 2` **Dig rocks with pcikaxes and find water**
 
+<br>
 <p><em><b>Planet B</b></em></p>
 
 `Mission 1` **Grab floating tools**
 
 `Mission 2` **Throw items to the broken spacecraft and fix it**
 
+<br>
 <p><em><b>Planet C</b></em></p>
 
 `Mission 1` **Grab the gun and shoot the aliens**
